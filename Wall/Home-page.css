@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(to bottom right,white,#bcbdc4);
+    height: 4000px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background:#fff;
+    top:0;
+    left: 0;
+    color: black;
+    z-index: 7;
+}
+#logo {
+    top: 8px;
+    text-decoration: none;
+    left: 50px;
+    height: 50px;
+    top: 5px;
+    font-size: 30px;
+    font-family:Impact, Charcoal, sans-serif;
+}
+#searcharea{
+    top:7px;
+    left: 300px;
+    bottom: 20px;
+    height: 40px;
+}
+#searchbox{
+    width: 500px;
+    height: 26px;
+    background: #f6f7f8;
+    padding: 5px;
+    outline: none;
+    border-radius: 10px/10px;
+    background-image: url();
+    background-position: 465px;
+    background-repeat: no-repeat;
+    }
+#profileArea{
+    top: 10px;
+    left: 850px;
+    height: 35px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+a{
+    color:#000 ;
+    text-decoration: none;
+}
+#profileArea:hover {
+    background: rgb(235, 235, 235);
+}
+
+#slashArea1{
+    top: 7px;
+    left: 933px;
+    height: 40px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    cursor: default;
+}
+
+#FindFriendArea{
+    top: 10px;
+
+    left: 950px;
+    height: 35px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+a{
+    color:#000 ;
+    text-decoration: none;
+}
+#FindFriendArea:hover {
+    background: rgb(235, 235, 235);
+}
+
+#slashArea2{
+    top: 7px;
+    left: 1107px;
+    height: 40px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    cursor: default;
+}
+#LogOutArea{
+    top: 10px;
+    left: 1120px;
+    height: 35px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+a{
+    color:#000 ;
+    text-decoration: none;
+}
+#LogOutArea:hover {
+    background: rgb(235, 235, 235);
+}
+#slashArea3{
+    top: 7px;
+    left: 1225px;
+    height: 40px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    cursor: default;
+    
+}
+#slashArea3 a{
+    color : #fff
+}
+
