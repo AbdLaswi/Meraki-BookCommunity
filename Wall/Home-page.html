@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang =  "en">
 <head>
-    <meta charset= "UTF-8">
+    <meta charset="UTF-8">
     <title>userHomePage</title>
     <link rel="stylesheet" href = "Home-page.css">
 </head>
 <body>
-    <div class = "header">
-        <a id= "logo" href= "#" class="header">ReaderCommunity</a>
-        <div id="searcharea" class= "header">
-            <input placeholder ="search" type="text" id ="searchbox"/>
+    <div class="header">
+        <a id="logo" href="#" >ReaderCommunity</a>
+        <div>
+            <input placeholder="search" type="text" id="searchbox"/>
         </div>   
-        <div id="profileArea" class ="header">
-            <a href = "profile.html"> Profile </a>
-        </div>
-        <div id="slashArea1" class ="header">
-            <a> | </a>
-        </div>
-        <div id="FindFriendArea" class ="header">
-            <a href = "Findfriends.html"> Find Friends </a>
-        </div>
-        <div id="slashArea2" class ="header">
-            <a> | </a>
-        </div>
-        <div id="LogOutArea" class ="header">
-            <a href = "LogOut.html"> Log Out </a>
-        </div>
-          <div id="slashArea3" class ="header">
-            <a> | </a>
+        <div class="header-navs">
+            <div class="nav-elm">
+                <a href = "profile.html"> Profile </a>
+            </div>
+
+            <div  class="nav-elm">
+                <a href = "Findfriends.html"> Find Friends </a>
+            </div>
+
+            <div  class="nav-elm">
+                <a href = "LogOut.html"> Log Out </a>
+            </div>
+
         </div>
     </div>
-    <div class ="leftSide">
-        <a id = "side1" class = "leftSide"  href="#" >UserName         </a>
-        <a id = "side2" class = "leftSide"  href="#" >Edit Profile     </a>
-        <a id = "side3" class = "leftSide"  href="#" >News feed        </a>
-        <a id = "side4" class = "leftSide"  href="#" >Messages         </a>
-        <a id = "side5" class = "leftSide"  href="#" >Events           </a>
-        <a id = "side6" class = "leftSide"  href="#" >Rooms            </a>
-        <a id = "side7" class = "leftSide"  href="#" >writers          </a>
-        <a id = "side8" class = "leftSide"  href="#" >Books            </a>
-        <a id = "side9" class = "leftSide"  href="#" >Quotes           </a>
-        <a id = "side10"class = "leftSide"  href="#" >Discuss          </a>
-        <a id = "side11"class = "leftSide"  href="#" >Discuss via video</a>
-        <a id = "side12"class = "leftSide"  href="#" >Discuss via chat </a>
-    </div>
-    <div class = "postarea"></div>
-    <div class = "post1">   </div>
-    <div class = "post2">   </div>
-    <div class = "post3">   </div>
-    <div class = "post4">   </div>
-    <div class = "post5">   </div>
-    <div class = "post" >
-        <div id = "column1" class = "post"> Quote<hr><br><br><br><br><br><br><hr></div>
-        <div id = "postbtn" class = "post"><input type="submit" id = "btnpost" value ="post"/></div>
-        <div id = "postBoxArea" class = "post"><textarea placeholder ="What Do You Want To Quote?" id = "postBox" type = "text"></textarea></div>
+    <div class="page"> 
+        <div class="side-nav">
+            <div class="edit-logo">
+                <a class="side-h" id="user-name"  href="#" >Username</a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path d="M7.127 22.564l-7.126 1.436 1.438-7.125 5.688 5.689zm-4.274-7.104l5.688 5.689 15.46-15.46-5.689-5.689-15.459 15.46z"/>
+                    </svg>
+                </a>                
+            </div>
+            <a class = "side-h" href="#" >News feed        </a>
+            <a class = "side-h" href="#" >Messages         </a>
+            <a class = "side-h" href="#" >Events           </a>
+            <a class = "side-h" href="#" >Writers          </a>
+            <a class = "leftSide"  href="#" >Books            </a>
+            <a class = "leftSide"  href="#" >Quotes           </a>
+            <a class = "side-h"  class="" href="#" >Discuss          </a>
+            <a class = "leftSide"  href="#" >Discuss via video</a>
+            <a class = "leftSide"  href="#" >Discuss via chat </a>
+        </div>
+        <div class="post-section">
+            <div class = "postarea" ></div>
+            <div class = "post1">   </div>
+            <div class = "post2">   </div>
+            <div class = "post3">   </div>
+            <div class = "post4">   </div>
+            <div class = "post5">   </div>
+            <div class = "post" >
+                <div id = "column1" class = "post"> Quote<hr><br><br><br><br><br><br><hr></div>
+                <div id = "postbtn" class = "post"><input type="submit" id = "btnpost" value ="Post"/></div>
+                <div id = "postBoxArea" class = "post"><textarea placeholder ="What Do You Want To Quote?" id = "postBox" type = "text"></textarea></div>
+            </div>
+        </div>
+        <div class="spacer">
+        </div>
     </div>
 </body> 
-        
+  
