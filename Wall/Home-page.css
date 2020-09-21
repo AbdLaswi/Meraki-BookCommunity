@@ -1,26 +1,29 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
     background: #e9ebee;
     font-family: Verdana;
 }
-.header{
+
+.header {
     position: fixed;
     width: 100%;
     height: 60px;
-    background:#fff;
+    background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
     z-index: 10;
 }
+
 .header-navs {
     display: flex;
     justify-content: right;
     align-items: center;
-   
+
 }
+
 .nav-elm a {
     margin: 0px 10px;
     font-size: 18px;
@@ -37,9 +40,10 @@ body{
     margin-left: 10px;
     height: 50px;
     font-size: 30px;
-    font-family:Impact, Charcoal, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
 }
-#searchbox{
+
+#searchbox {
     width: 550px;
     height: 26px;
     background: #f6f7f8;
@@ -50,6 +54,7 @@ body{
     background-position: 465px;
     background-repeat: no-repeat;
 }
+
 .page {
     position: relative;
 
@@ -59,6 +64,7 @@ body{
     font-size: 20px;
     margin-top: 10px;
 }
+
 .side-h:hover {
     color: #0079d3
 }
@@ -66,30 +72,33 @@ body{
 .leftSide {
     margin-left: 10px;
 }
+
 .leftSide:hover {
     color: #0079d3
-
 }
 
 .side-nav {
-    position: absolute;
+    position: fixed;
     top: 100px;
     left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
-#profileArea{
+
+#profileArea {
     top: 10px;
     left: 850px;
     height: 35px;
     font-size: 22.5px;
     font-family: Verdana, Geneva, sans-serif;
 }
-a{
-    color:#000 ;
+
+a {
+    color: #000;
     text-decoration: none;
 }
+
 #profileArea:hover {
     background: rgb(235, 235, 235);
 }
@@ -104,22 +113,24 @@ textarea {
     position: absolute;
     width: 600px;
     height: 215px;
-    box-shadow: 0 3px 8px rgb(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgb(0, 0, 0, 0.25);
 }
-.post1{
+
+.post1 {
     top: 290px;
     left: 240px;
     position: absolute;
     background: #ffffff;
     width: 580px;
     height: 600px;
-    border-radius: 3px ;
+    border-radius: 3px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
-.post2{
+
+.post2 {
     top: 910px;
     left: 240px;
     position: absolute;
@@ -130,9 +141,10 @@ textarea {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
-.post3{
+
+.post3 {
     top: 1530px;
     left: 240px;
     position: absolute;
@@ -143,9 +155,10 @@ textarea {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
-.post4{
+
+.post4 {
     top: 2150px;
     left: 240px;
     position: absolute;
@@ -156,9 +169,10 @@ textarea {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
-.post5{
+
+.post5 {
     top: 2770px;
     left: 240px;
     position: absolute;
@@ -169,17 +183,19 @@ textarea {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
-.post{
+
+.post {
     top: 70px;
     left: 240px;
     position: absolute;
     width: 600px;
     height: 210px;
-   
+
 }
-#column1{
+
+#column1 {
     left: 0px;
     top: 0px;
     background: #ffffff;
@@ -193,13 +209,15 @@ textarea {
     padding-left: 10px;
     padding-right: 10px;
 }
-#postbtn{
+
+#postbtn {
     left: 500px;
     top: 170px;
     width: 85px;
     height: 30px;
 }
-#btnpost{
+
+#btnpost {
     width: 85px;
     height: 30px;
     border-radius: 4px;
@@ -208,14 +226,16 @@ textarea {
     outline: none;
     color: #ffffff;
 }
-#postBoxArea{
+
+#postBoxArea {
     top: 45px;
     left: 10px;
     border-radius: 3px;
     height: 105px;
     width: 580px;
 }
-#postBox{
+
+#postBox {
     height: 105px;
     outline: none;
     border-radius: 3px;
