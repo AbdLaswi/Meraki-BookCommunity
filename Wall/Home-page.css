@@ -86,22 +86,14 @@ body {
     justify-content: start;
 }
 
-#profileArea {
-    top: 10px;
-    left: 850px;
-    height: 35px;
-    font-size: 22.5px;
-    font-family: Verdana, Geneva, sans-serif;
-}
+
 
 a {
     color: #000;
     text-decoration: none;
 }
 
-#profileArea:hover {
-    background: rgb(235, 235, 235);
-}
+
 
 textarea {
     resize: none;
